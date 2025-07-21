@@ -54,7 +54,9 @@ CTRL + c
 - Give the miner/stratum time to stabilize hashrate(~30m-1h).
 
 
-## if you want to use pool vivor
+## if you want to use pool vivor 
+
+Vivor: https://vipor.net/miner/VRSC/
 
 ```
 {
