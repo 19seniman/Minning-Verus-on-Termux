@@ -1,5 +1,4 @@
 
-
 ```
 yes | pkg update -y
 yes | pkg upgrade -y
