@@ -52,3 +52,28 @@ CTRL + c
 - Alternatively you can pull down the notification drawer and expand Termux notification to `Acquire wakelock` this will enable you to mine with the screen off **(NOTE! not all devices obey this rule is a hit or miss)**
 - Use a pool with low latency to your location/internet.
 - Give the miner/stratum time to stabilize hashrate(~30m-1h).
+
+
+## if you want to use pool vivor
+
+```
+{
+    "pools":
+        [{
+            "name": "US-VIPOR",
+            "url": "stratum+tcp://sg.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 0
+        }],
+
+    "user": "RFVtjd7KGmTxj2LB4wuMhjXe4gpxUxEA1e.19SenimanS9+",
+    "pass": "",
+    "algo": "verus",
+    "threads": 8,
+    "cpu-priority": 1,
+    "cpu-affinity": -1,
+    "retry-pause": 10,
+    "api-allow": "192.168.0.0/16",
+    "api-bind": "0.0.0.0:4068"
+}
+```
